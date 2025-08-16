@@ -14,7 +14,6 @@ export default [
     },
     rules: {
       ...tseslint.configs.recommended.rules,
-      'no-console': 'off',
       'no-undef': 'off', // TypeScript handles this better
     },
   },
