@@ -1,6 +1,7 @@
 {
   "version": "0.2",
   "language": "en",
+  "allowCompoundWords": true,
   "dictionaries": [
     "bash",
     "companies",
@@ -9,7 +10,8 @@
     "javascript",
     "node",
     "npm",
-    "typescript"
+    "typescript",
+    "softwareTerms"
   ],
   "ignorePaths": [
     "node_modules/**",
@@ -25,6 +27,9 @@
     "nodejs",
     "KodiStudios",
     "pixel",
+    "ts",
+    "eslint",
+    "parser",
     "tsparser",
     "tseslint"
   ],
