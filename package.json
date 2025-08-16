@@ -1,14 +1,17 @@
 {
   "name": "pixel-gem",
   "version": "1.0.0",
-  "description": "A modern Node.js application",
-  "main": "src/index.js",
+  "description": "A modern Node.js application with TypeScript",
+  "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch & node --watch dist/index.js",
+    "dev:build": "tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "echo \"Add linting here\"",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "spell:check": "cspell \"**/*.{js,ts,md,json}\"",
@@ -27,7 +30,13 @@
     "pnpm": ">=10.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/node": "^24.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.39.1",
+    "@typescript-eslint/parser": "^8.39.1",
     "cspell": "^9.2.0",
-    "prettier": "^3.6.2"
+    "eslint": "^9.33.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
   }
 }
