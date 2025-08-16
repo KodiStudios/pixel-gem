@@ -10,7 +10,8 @@ console.log('✨ Your TypeScript Node.js application is running...');
 
 // Example: Simple HTTP server (uncomment to use)
 /*
-import { createServer, IncomingMessage, ServerResponse } from 'http';
+import { createServer, IncomingMessage, ServerResponse } from 'node:http';
+import process from 'node:process';
 
 const server = createServer((req: IncomingMessage, res: ServerResponse): void => {
   res.writeHead(200, { 'Content-Type': 'text/html' });
