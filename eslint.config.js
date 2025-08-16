@@ -8,9 +8,6 @@ export default [
     files: ['**/*.ts'],
     languageOptions: {
       parser: tsparser,
-      globals: {
-        console: 'readonly', // console is a Node.js global
-      },
     },
     plugins: {
       '@typescript-eslint': tseslint,
@@ -18,6 +15,7 @@ export default [
     rules: {
       ...tseslint.configs.recommended.rules,
       'no-console': 'off',
+      'no-undef': 'off', // TypeScript handles this better
     },
   },
 ];

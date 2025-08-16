@@ -5,6 +5,8 @@
  * A modern Node.js application with TypeScript
  */
 
+import console from 'node:console';
+
 console.log('🎮 Welcome to Pixel Gem!');
 console.log('✨ Your TypeScript Node.js application is running...');
 
