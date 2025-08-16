@@ -17,7 +17,7 @@
     "pixel-gem"
   ],
   "author": "KodiStudios",
-  "license": "ISC",
+  "license": "MIT",
   "packageManager": "pnpm@10.14.0",
   "engines": {
     "node": ">=24.0.0",
