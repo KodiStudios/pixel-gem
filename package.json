@@ -10,7 +10,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "echo \"Add linting here\"",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "spell:check": "cspell \"**/*.{js,ts,md,json}\"",
+    "spell:fix": "cspell \"**/*.{js,ts,md,json}\" --show-suggestions"
   },
   "keywords": [
     "nodejs",
@@ -25,6 +27,7 @@
     "pnpm": ">=10.0.0"
   },
   "devDependencies": {
+    "cspell": "^9.2.0",
     "prettier": "^3.6.2"
   }
 }

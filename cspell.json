@@ -1,0 +1,30 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": [
+    "bash",
+    "companies",
+    "css",
+    "html",
+    "javascript",
+    "node",
+    "npm",
+    "typescript"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "coverage/**",
+    "*.log",
+    "pnpm-lock.yaml",
+    ".git/**"
+  ],
+  "words": [
+    "pnpm",
+    "nodejs",
+    "KodiStudios",
+    "pixel"
+  ],
+  "flagWords": []
+}
