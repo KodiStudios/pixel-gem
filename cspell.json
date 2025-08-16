@@ -24,7 +24,9 @@
     "pnpm",
     "nodejs",
     "KodiStudios",
-    "pixel"
+    "pixel",
+    "tsparser",
+    "tseslint"
   ],
   "flagWords": []
 }
