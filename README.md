@@ -5,15 +5,18 @@ A modern Node.js application built with pnpm.
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js >= 18.0.0
 - pnpm >= 8.0.0
 
 ### Installation
+
 ```bash
 pnpm install
 ```
 
 ### Development
+
 ```bash
 # Run the application
 pnpm start
@@ -23,6 +26,7 @@ pnpm dev
 ```
 
 ### Scripts
+
 - `pnpm start` - Run the application
 - `pnpm dev` - Run in development mode with file watching
 - `pnpm test` - Run tests (to be implemented)
@@ -53,4 +57,4 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 ## 🎮 About Pixel Gem
 
-*Add your project description here*
+_Add your project description here_
