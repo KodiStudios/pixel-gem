@@ -1,0 +1,26 @@
+{
+  "name": "pixel-gem",
+  "version": "1.0.0",
+  "description": "A modern Node.js application",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "echo \"Add linting here\"",
+    "format": "echo \"Add formatting here\""
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "pixel-gem"
+  ],
+  "author": "KodiStudios",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}
